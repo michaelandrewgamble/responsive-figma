@@ -1,0 +1,19 @@
+{
+    "name": "my-plugin",
+    "version": "1.0.0",
+    "description": "My awesome Figma plugin",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "parcel build src/index.html --public-url ./",
+        "start": "parcel serve src/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "figma-plugin-ds": "^1.0.0"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5"
+    }
+}
